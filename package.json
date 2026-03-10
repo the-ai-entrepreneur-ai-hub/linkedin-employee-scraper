@@ -1,0 +1,19 @@
+{
+  "name": "linkedin-employees-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "LinkedIn Company Employees Scraper - No cookies required. Extract employee profiles by company with optional email enrichment.",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo 'Tests not configured' && exit 0"
+  },
+  "dependencies": {
+    "apify": "^3.4.2",
+    "crawlee": "^3.13.8",
+    "cheerio": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "george.the.developer"
+}
